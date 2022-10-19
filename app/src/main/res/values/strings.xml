@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="hello">Hello!</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+
+
+    <string name="q1">czy ksiezyc to planeta?</string>
+    <string name="q2">czy 2+2=4?</string>
+    <string name="q3">7 jest liczbą pierwszą</string>
+    <string name="q4">Białoruś jest członkiem unii europejskiej</string>
+    <string name="q5">Pierszym królem polski był Mieszko I</string>
+
+    <string name="correct_answer">Prawidłowa odpowiedz</string>
+    <string name="incorrect_answer">Nieprawidłowa odpowiedz</string>
+</resources>
