@@ -1,0 +1,42 @@
+Repozytorum: https://github.com/antonmaisiuk/Android-Quiz
+
+
+---------------------------- PROCESS STARTED (5067) for package com.example.quiz ----------------------------
+2022-10-18 17:09:40.279  5067-5067  TAG                     com.example.quiz                     D  onStart  <--- uruchomienie aplikacji
+2022-10-18 17:09:40.282  5067-5067  TAG                     com.example.quiz                     D  onResume <--- uruchomienie aplikacji
+
+2022-10-18 17:11:31.380  5067-5067  TAG                     com.example.quiz                     D  onPause <--- naciśnięcie Back
+2022-10-18 17:11:32.217  5067-5067  TAG                     com.example.quiz                     D  onStop  <--- naciśnięcie Back
+
+2022-10-18 17:12:54.710  5067-5067  TAG                     com.example.quiz                     D  onStart  <--- powrót do aplikacji
+2022-10-18 17:12:54.725  5067-5067  TAG                     com.example.quiz                     D  onResume <--- powrót do aplikacji
+
+2022-10-18 17:15:15.771  5067-5067  TAG                     com.example.quiz                     D  onPause <--- naciśnięcie Home
+2022-10-18 17:15:16.393  5067-5067  TAG                     com.example.quiz                     D  onStop  <--- naciśnięcie Home
+
+2022-10-18 17:18:20.417  5067-5067  TAG                     com.example.quiz                     D  onPause <--- naciśnięcie Power
+2022-10-18 17:18:20.468  5067-5067  TAG                     com.example.quiz                     D  onStop  <--- naciśnięcie Power
+
+
+
+Przy zmianie orientacji ekranu:
+2022-10-23 13:11:27.999  3402-3402  TAG                     com.example.quiz                     D  onPause
+2022-10-23 13:11:28.013  3402-3402  TAG                     com.example.quiz                     D  onStop
+2022-10-23 13:11:28.016  3402-3402  TAG                     com.example.quiz                     D  onDestroy
+2022-10-23 13:11:28.264  3402-3402  TAG                     com.example.quiz                     D  onStart
+2022-10-23 13:11:28.265  3402-3402  TAG                     com.example.quiz                     D  onResume
+
+Zostało wyświetlone pierwsze pytanie, czyli aplikacja została urochomiona ponownie.
+
+
+
+Po dodaniu zapisywania stanu, przy zmianie orientacji ekranu:
+2022-10-23 13:20:01.815  6767-6767  TAG                     com.example.quiz                     D  onPause
+2022-10-23 13:20:01.821  6767-6767  TAG                     com.example.quiz                     D  onStop
+2022-10-23 13:20:01.827  6767-6767  TAG                     com.example.quiz                     D  Wywołana metoda onSaveInstanceState
+2022-10-23 13:20:01.830  6767-6767  TAG                     com.example.quiz                     D  onDestroy
+2022-10-23 13:20:01.920  6767-6767  TAG                     com.example.quiz                     D  onCreate
+2022-10-23 13:20:01.983  6767-6767  TAG                     com.example.quiz                     D  onStart
+2022-10-23 13:20:01.986  6767-6767  TAG                     com.example.quiz                     D  onResume
+
+Teraz, po obracaniu ekranu, wyświetla się takie same pytanie jaki i przed obrotem.
