@@ -15,4 +15,11 @@
 
     <string name="correct_answer">Prawidłowa odpowiedz</string>
     <string name="incorrect_answer">Nieprawidłowa odpowiedz</string>
+
+
+
+    <string name="hint_answer">Czy na pewno chcesz zobaczyć odpowiedź?</string>
+    <string name="hint_answer_btn">Pokaż odpowiedź</string>
+    <string name="answer_main_activity">Podpowiedź</string>
+    <string name="answer_was_shown">Odpowiedź już była wyświetlona!</string>
 </resources>

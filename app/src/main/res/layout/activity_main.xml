@@ -46,5 +46,11 @@
         android:textColor="@color/black"
         android:text="@string/next_button"/>
 
+    <Button
+        android:id="@+id/answer_btn_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer_main_activity" />
+
 
 </LinearLayout>
